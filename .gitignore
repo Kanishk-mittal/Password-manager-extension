@@ -1,0 +1,48 @@
+# Python-specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+instance/
+*.egg-info/
+dist/
+build/
+*.log
+
+# Flask specific
+*.db
+*.sqlite3
+*.db-journal
+
+# Chrome Extension specific
+*.pem
+node_modules/
+*.crx
+*.gz
+
+# IDEs and Editors (add yours if you use specific ones)
+.vscode/
+.idea/
+
+# Operating system-specific files
+.DS_Store
+Thumbs.db
+
+# dotenv files (for sensitive credentials)
+.env
+
+# Python virtual environment
+*/.env
+*/.venv
+
+# mypy
+.mypy_cache/
+
+# VS Code specific
+.vscode/
+
+# Flask migration folder
+migrations/
+
+# Any other sensitive config or file storage you don't want to track
+*.env
