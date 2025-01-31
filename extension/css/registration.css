@@ -82,7 +82,7 @@ body {
 /* Image section styling */
 .image-section {
     flex: 1;
-    background-image: url('../icons/image2.png');
+    background-image: url('../src/image2.png');
     background-size: cover;
     background-position: center;
     padding-left: 20px;
